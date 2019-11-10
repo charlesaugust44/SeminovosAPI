@@ -35,3 +35,7 @@ Put this line on your crontab file to configure th scheduler
 ```
 Then restart the crontab service. The crawler will run once a day getting all the vehicles to the database.
 
+To manually run put this command on your terminal, when inside the project folder:
+```
+php artisan schedule:run 
+```
