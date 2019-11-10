@@ -30,6 +30,6 @@ class Kernel extends ConsoleKernel
             $car = new CarPage('https://seminovos.com.br/carro');
 
             $car->run();
-        })->everyMinute();
+        })->daily();
     }
 }
